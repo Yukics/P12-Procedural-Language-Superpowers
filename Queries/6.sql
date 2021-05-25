@@ -2,8 +2,8 @@
 SELECT DATA_TYPE
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE
-     TABLE_NAME = 'customers' AND
-     COLUMN_NAME = 'customerid'
+     TABLE_NAME = 'products' AND
+     COLUMN_NAME = 'common_prod_id'
 */
 
 ---SQL---
